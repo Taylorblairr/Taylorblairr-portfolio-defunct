@@ -75,12 +75,10 @@ body {
   vertical-align: top;
 }
 .about {
-  transform-origin: top right;
   display: flex;
   position: absolute;
-  left: 215px;
-  top: 10px;
-  transform: rotate(90deg);
+  top: -225px;
+  left: 180px;
   color: black;
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
@@ -102,7 +100,7 @@ body {
   display: flex;
   position: absolute;
   top: -265px;
-  left: 115px;
+  left: 120px;
   color: black;
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
@@ -110,10 +108,12 @@ body {
   vertical-align: top;
 }
 .resume {
+  transform-origin: top right;
   display: flex;
   position: absolute;
-  top: -200px;
-  left: 170px;
+  left: 230px;
+  top: 1px;
+  transform: rotate(90deg);
   color: black;
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
