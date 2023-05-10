@@ -1,0 +1,122 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image: url(https://i.imgur.com/KaSRppx.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: optimizeQuality;
+  image-rendering: crisp-edges;
+}
+#top-container {
+  width: 80%;
+  height: 80vh;
+  margin: 5vh auto;
+  border: 2px solid;
+  position: relative;
+}
+
+.box1 {
+  display: flex;
+  position: relative;
+  top: 150px;
+  left: 200px;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  color: azure;
+  vertical-align: top;
+}
+
+.box2 {
+  display: flex;
+  position: relative;
+  top: 25px;
+  left: 250px;
+  height: 5px;
+  width: 250px;
+  background-color: black;
+  color: azure;
+  vertical-align: top;
+}
+
+.box3 {
+  display: flex;
+  position: relative;
+  top: 125px;
+  left: 275px;
+  height: 250px;
+  width: 5px;
+  background-color: black;
+  color: azure;
+  vertical-align: top;
+}
+
+#link-container {
+  width: 80%;
+  height: 80vh;
+  margin: 5vh auto;
+
+  position: absolute;
+  vertical-align: top;
+}
+.name {
+  display: flex;
+  position: relative;
+  bottom: 250px;
+  left: 500px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: top;
+}
+.about {
+  transform-origin: top right;
+  display: flex;
+  position: absolute;
+  left: 215px;
+  top: 10px;
+  transform: rotate(90deg);
+  color: black;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  vertical-align: top;
+}
+.projects {
+  display: flex;
+  position: absolute;
+  top: -300px;
+  left: 75px;
+  color: black;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  vertical-align: top;
+}
+.git {
+  display: flex;
+  position: absolute;
+  top: -265px;
+  left: 115px;
+  color: black;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  vertical-align: top;
+}
+.resume {
+  display: flex;
+  position: absolute;
+  top: -200px;
+  left: 170px;
+  color: black;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  vertical-align: top;
+}
