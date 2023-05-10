@@ -1,24 +1,17 @@
-html,
 body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin: 0px;
+  padding: 0px;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-image: url(https://i.imgur.com/KaSRppx.jpg);
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
-  image-rendering: optimizeQuality;
-  image-rendering: crisp-edges;
 }
+
 #top-container {
-  width: 80%;
+  width: 100%;
   height: 80vh;
   margin: 5vh auto;
   border: 2px solid;
-  position: relative;
+  position: absolute;
 }
 
 .box1 {
@@ -61,7 +54,6 @@ body {
   width: 80%;
   height: 80vh;
   margin: 5vh auto;
-
   position: absolute;
   vertical-align: top;
 }
@@ -120,3 +112,26 @@ body {
   text-decoration: none;
   vertical-align: top;
 }
+
+/* .overlay {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-image: url(https://lh3.googleusercontent.com/B7thS7tYxZHthurnWGOMDVmqVVeKqSUztV1S1PUuaf6n0loWF-m_e7tC3ZPj0KWEBzwgbiKsHhiEeDgcT0Zx2hAc-wNjru72oZ54Qhd-CdwapxF20-0w4PG6EfgqfkTpLnDVE8V5ap_r5rnvjvmV1SXhKV3gnPYC2Mgt0_IJKJGW7B_VYTIzDuZHtW66BHPn18wD59pNtqJmXkHY8pugVeiR1wi9TAXFMxCwsWTH5bmsFrycChLbwbYSWAoyLg79j8yeHl-7aFZM7LkagtD4Pnk9iFTH3x809rsN33dy-Xml3wBa5oyNuMr-S8cD7iHXKRCatMC69Mejx7Nr7zUZbkIuRxPhy8LK5fPPwrM_xO6cZz7AdttaKTLIzPWZxzsNGflgfulZPHKDzqpVuxoRPYyYSqqrtR-HkiTEuel5wEWjGYVo77XAHGYRQ9URNtdRYJSmQKNs776H2qR1_lwDBgwmiQuLcyxW3QegQ4-khTEFI_SAgcpVt-EAf3d6V6HowDugKrK0E2571ObLIOX-N9EYbjJyj-WQhFuQdMHPIBa-JMxknaWnnRWAN_U3K-iV_Ao7Cw5l1N7p85zwt6_lppSgbQDACSMPfKwJhoeG8WNgQRUvtbNL7Hd78V2GawLjULnNTdSfCeDYdfTl-Z39GwGYkl5IifVXhtCR-0Qa9_II__7V-SMhvVBtqrIfoQDMXy1qLRHPKtXviqSi1T2UWxCfRcOlAlmjyU8dUn1AmDpUircOrzSkdS_d_qteW-Aefrjg0QooAwGhAWzheAJQmDXP2L4ZpsLV8uY1oJA6x4Zd--EeMjLJDQHmQOpCwIAY9g5Dmp6AdGtnln1lR3tZVG1KXznHjK9qQNMbTrEBasRAEtopetK_5r1ZdVM8SUiARkSJyz0URkwNUdCMBy4iNI3acbC_Ud5N3DkHnJx4fABw5MUtPvEQkAUhe2WC5SdaVxnKL-KyGgqtz764Fo-HUr4UKkTnBo4XW_HbdjdFGoHovARKtnxxYT6bgAoYeXy_w9Sjgx26ugnKpV5HxC6NbyYa-XCeI6zLU1oguutE3c5UqwnNfVjFPw=w1529-h860-s-no?authuser=2);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: optimizeQuality;
+  image-rendering: crisp-edges;
+}
+.underlay {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-image: url(https://i.imgur.com/AaJhc3Q.png);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: optimizeQuality;
+  image-rendering: crisp-edges;
+} */
