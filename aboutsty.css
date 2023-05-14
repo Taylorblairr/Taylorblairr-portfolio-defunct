@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+  }
+.about-container {
+    display: flex;
+    justify-content: center;
+   
+    background-color: rgba(0, 0, 0, 0.694);
+  }
+  
+  .photo {
+    justify-content: left;
+    padding-right: 25px;
+  }
+  
+  .about-photo {
+    justify-content: left;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  }
+  
+  .bio {
+    padding-left: 2px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+  }
+  
+  .bio-text {
+    font-size: 1.2em;
+  }
