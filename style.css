@@ -31,10 +31,21 @@ body {
   left: 200px;
   height: 100px;
   width: 100px;
-  background-color: black;
-  color: azure;
+  background-color: rgb(0, 0, 0);
+  
   vertical-align: top;
+  
+  animation-name: box1;
+  animation-duration: 7s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
 }
+
+@keyframes box1 {
+  from {left: -100px; opacity: 0%;}
+  to {left: 200px; opacity: 100%;}
+}
+
 
 .box2 {
   display: flex;
@@ -43,9 +54,19 @@ body {
   left: 250px;
   height: 5px;
   width: 250px;
-  background-color: black;
-  color: azure;
+  background-color: rgb(0, 0, 0); 
   vertical-align: top;
+ 
+  animation-name: box2;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+
+}
+
+@keyframes box2 {
+  from {top: -100px; opacity: 0%;}
+  to {top: -10px; opacity: 100%;}
 }
 
 .box3 {
@@ -55,9 +76,18 @@ body {
   left: 275px;
   height: 250px;
   width: 5px;
-  background-color: black;
-  color: azure;
+  background-color: rgb(0, 0, 0);;
   vertical-align: top;
+  
+  animation-name: box3;
+  animation-duration: 8s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes box3 {
+  from {top: 500px; opacity: 0%;}
+  to {top: 100px; opacity: 100%;}
 }
 
 #link-container {
@@ -75,6 +105,10 @@ body {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   vertical-align: top;
+  animation-name: link;
+  animation-duration: 11s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
 }
 .about {
   display: flex;
@@ -86,6 +120,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   vertical-align: top;
+  animation-name: link;
+  animation-duration: 11s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
 }
 .projects {
   display: flex;
@@ -97,6 +135,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   vertical-align: top;
+  animation-name: link;
+  animation-duration: 11s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
 }
 .git {
   display: flex;
@@ -108,6 +150,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   vertical-align: top;
+  animation-name: link;
+  animation-duration: 11s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
 }
 .resume {
   transform-origin: top right;
@@ -121,27 +167,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   vertical-align: top;
+  animation-name: link;
+  animation-duration: 11s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+
 }
 
-.overlay {
-  position: relative;
-  top: 0px;
-  left: 0px;
-  background-image: url(https://lh3.googleusercontent.com/B7thS7tYxZHthurnWGOMDVmqVVeKqSUztV1S1PUuaf6n0loWF-m_e7tC3ZPj0KWEBzwgbiKsHhiEeDgcT0Zx2hAc-wNjru72oZ54Qhd-CdwapxF20-0w4PG6EfgqfkTpLnDVE8V5ap_r5rnvjvmV1SXhKV3gnPYC2Mgt0_IJKJGW7B_VYTIzDuZHtW66BHPn18wD59pNtqJmXkHY8pugVeiR1wi9TAXFMxCwsWTH5bmsFrycChLbwbYSWAoyLg79j8yeHl-7aFZM7LkagtD4Pnk9iFTH3x809rsN33dy-Xml3wBa5oyNuMr-S8cD7iHXKRCatMC69Mejx7Nr7zUZbkIuRxPhy8LK5fPPwrM_xO6cZz7AdttaKTLIzPWZxzsNGflgfulZPHKDzqpVuxoRPYyYSqqrtR-HkiTEuel5wEWjGYVo77XAHGYRQ9URNtdRYJSmQKNs776H2qR1_lwDBgwmiQuLcyxW3QegQ4-khTEFI_SAgcpVt-EAf3d6V6HowDugKrK0E2571ObLIOX-N9EYbjJyj-WQhFuQdMHPIBa-JMxknaWnnRWAN_U3K-iV_Ao7Cw5l1N7p85zwt6_lppSgbQDACSMPfKwJhoeG8WNgQRUvtbNL7Hd78V2GawLjULnNTdSfCeDYdfTl-Z39GwGYkl5IifVXhtCR-0Qa9_II__7V-SMhvVBtqrIfoQDMXy1qLRHPKtXviqSi1T2UWxCfRcOlAlmjyU8dUn1AmDpUircOrzSkdS_d_qteW-Aefrjg0QooAwGhAWzheAJQmDXP2L4ZpsLV8uY1oJA6x4Zd--EeMjLJDQHmQOpCwIAY9g5Dmp6AdGtnln1lR3tZVG1KXznHjK9qQNMbTrEBasRAEtopetK_5r1ZdVM8SUiARkSJyz0URkwNUdCMBy4iNI3acbC_Ud5N3DkHnJx4fABw5MUtPvEQkAUhe2WC5SdaVxnKL-KyGgqtz764Fo-HUr4UKkTnBo4XW_HbdjdFGoHovARKtnxxYT6bgAoYeXy_w9Sjgx26ugnKpV5HxC6NbyYa-XCeI6zLU1oguutE3c5UqwnNfVjFPw=w1529-h860-s-no?authuser=2);
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-size: cover;
-  image-rendering: optimizeQuality;
-  image-rendering: crisp-edges;
-}
-.underlay {
-  position: relative;
-  top: 0px;
-  left: 0px;
-  background-image: url(https://i.imgur.com/AaJhc3Q.png);
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-size: cover;
-  image-rendering: optimizeQuality;
-  image-rendering: crisp-edges;
+@keyframes link {
+  0% { opacity: 0;color: #000000;}
+  90% { opacity: 0;color: #000000;}
+  100% { opacity: 1;color: #000;}
 }
