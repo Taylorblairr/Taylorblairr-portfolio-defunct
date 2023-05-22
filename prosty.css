@@ -11,14 +11,44 @@
 body {
   background-image: url("https://imgur.com/ekpcjFR.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+  /* width: fit-content; */
+  height: 200%;
+  /* position: absolute; */
+  /* overflow-y: hidden; */
+  /* overflow-x: hidden; */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  image-rendering: optimizeQuality;
+  image-rendering: crisp-edges;
 }
 
-#projects,
+#projects {
+  color: white;
+  /* padding-top: 25px; */
+  font-size: larger;
+  animation-name: link;
+  animation-duration: 8s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
 #projects2 {
   color: white;
-  padding: 50px;
+  padding-top: 100px;
+
   font-size: larger;
+  animation-name: link;
+  animation-duration: 8s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+@keyframes link {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 .projects-header {
@@ -31,21 +61,21 @@ body {
 .projects-container {
   display: flex;
   justify-content: space-evenly;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 50vw;
+  margin-right: 50vw;
 }
 
 .project-card {
   display: flex;
   justify-content: center;
-  height: 700px;
+  height: 600px;
 }
 .project-body {
-  background-color: rgba(113, 113, 113, 0.173);
-  border: solid rgba(0, 0, 0, 0.142) 0.5px;
+  background-color: rgba(0, 0, 0, 0.519);
+  /* border: solid rgba(0, 0, 0, 0.142) 0.5px; */
   width: 500px;
-  height: 700px;
-  padding: 20px;
+  height: 600px;
+  padding: 10px;
 }
 
 .project-body-header {
@@ -81,6 +111,6 @@ body {
 
 .project-link:hover {
   color: white;
-  border: solid 1px rgb(102, 124, 223);
+  /* border: solid 1px rgb(102, 124, 223); */
   background-color: black;
 }

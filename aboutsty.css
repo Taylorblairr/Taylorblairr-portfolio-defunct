@@ -16,7 +16,7 @@ body {
 .about-container {
   display: flex;
   justify-content: center;
-
+  color: white;
   background-color: rgba(0, 0, 0, 0.232);
 }
 
