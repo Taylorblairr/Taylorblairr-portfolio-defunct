@@ -23,6 +23,19 @@ body {
   image-rendering: crisp-edges;
 }
 
+.back {
+  /* transform-origin: top right; */
+  display: flex;
+  position: relative;
+  /* top: 110px;
+  left: 100px; */
+  /* transform: rotate(90deg); */
+  color: black;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  /* vertical-align: top; */
+}
 #projects {
   color: white;
   /* padding-top: 25px; */
@@ -38,8 +51,8 @@ body {
 
   font-size: larger;
   animation-name: link;
-  animation-duration: 8s;
-  animation-delay: 1s;
+  animation-duration: 6s;
+  animation-delay: 2s;
   animation-fill-mode: both;
 }
 @keyframes link {

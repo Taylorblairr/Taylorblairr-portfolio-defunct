@@ -13,6 +13,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.back {
+  /* transform-origin: top right; */
+  display: flex;
+  position: relative;
+  /* top: 110px;
+  left: 100px; */
+  /* transform: rotate(90deg); */
+  color: black;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  /* vertical-align: top; */
+}
 .about-container {
   display: flex;
   justify-content: center;
