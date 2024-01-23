@@ -5,8 +5,16 @@
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
-  background-color: transparent;
+  background: transparent;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin-top: 0;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 .navbar {
   display: flex;
@@ -15,9 +23,9 @@
   width: 100%;
   z-index: 3;
   animation-name: nav;
-  animation-duration: 6s;
+  animation-duration: 10.5s;
   animation-delay: 0s;
-  animation-fill-mode: both;
+  animation-fill-mode: forwards;
 }
 
 @keyframes nav {
@@ -45,7 +53,7 @@
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 10px;
   margin-right: 5px;
 }
@@ -54,122 +62,204 @@
   color: white;
   background-color: rgb(69, 71, 81);
 }
-body {
-  background-image: url("https://imgur.com/ekpcjFR.png");
-  background-repeat: no-repeat;
-  /* background-size: cover; */
-  /* width: fit-content; */
-  height: 200%;
-  /* position: absolute; */
-  /* overflow-y: hidden; */
-  /* overflow-x: hidden; */
-  background-repeat: no-repeat;
-  /* background-size: cover; */
-  image-rendering: optimizeQuality;
-  image-rendering: crisp-edges;
+
+#top-container {
+  width: 100%;
+  height: 80vh;
+  margin: 5vh auto;
+  border: 2px solid;
+  position: absolute;
 }
 
-.back {
-  /* transform-origin: top right; */
+.box1 {
   display: flex;
   position: relative;
-  /* top: 110px;
-  left: 100px; */
-  /* transform: rotate(90deg); */
-  color: black;
-  font-size: x-large;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  /* vertical-align: top; */
-}
-#projects {
-  color: white;
-  /* padding-top: 25px; */
-  font-size: larger;
-  animation-name: link;
-  animation-duration: 8s;
-  animation-delay: 1.5s;
-  animation-fill-mode: both;
-}
-#projects2 {
-  color: white;
-  padding-top: 100px;
+  top: 100px;
+  left: 200px;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(0, 0, 0);
 
-  font-size: larger;
-  animation-name: link;
-  animation-duration: 6s;
-  animation-delay: 2s;
-  animation-fill-mode: both;
+  vertical-align: top;
+
+  animation-name: box1;
+  animation-duration: 7s;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
 }
-@keyframes link {
+
+@keyframes box1 {
   from {
+    left: -100px;
     opacity: 0%;
   }
   to {
+    left: 200px;
     opacity: 100%;
   }
 }
 
-.projects-header {
-  width: 100%;
+/* .box2 {
   display: flex;
-  justify-content: center;
-  padding-bottom: 10px;
+  position: relative;
+  top: -10px;
+  left: 250px;
+  height: 5px;
+  width: 250px;
+  background-color: rgb(0, 0, 0);
+  vertical-align: top;
+
+  animation-name: box2;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+} */
+
+@keyframes box2 {
+  from {
+    top: -100px;
+    opacity: 0%;
+  }
+  to {
+    top: -10px;
+    opacity: 100%;
+  }
 }
 
-.projects-container {
+.box3 {
   display: flex;
-  justify-content: space-evenly;
-  margin-left: 50vw;
-  margin-right: 50vw;
+  position: relative;
+  top: 100px;
+  left: 275px;
+  height: 250px;
+  width: 5px;
+  background-color: rgb(0, 0, 0);
+  vertical-align: top;
+
+  animation-name: box3;
+  animation-duration: 8s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
 }
 
-.project-card {
+@keyframes box3 {
+  from {
+    top: 500px;
+    opacity: 0%;
+  }
+  to {
+    top: 100px;
+    opacity: 100%;
+  }
+}
+
+#link-container {
+  width: 80%;
+  height: 80vh;
+  margin: 5vh auto;
+  position: absolute;
+  vertical-align: top;
+}
+.name {
   display: flex;
-  justify-content: center;
-  height: 600px;
+  position: fixed;
+  top: 70px;
+  left: 150px;
+  color: black;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: top;
+  animation-name: link;
+  animation-duration: 0s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
 }
-.project-body {
-  background-color: rgba(0, 0, 0, 0.519);
-  /* border: solid rgba(0, 0, 0, 0.142) 0.5px; */
-  width: 500px;
-  height: 600px;
-  padding: 10px;
-}
-
-.project-body-header {
-  text-align: center;
-  font-size: 1.3em;
-  font-weight: 700;
-}
-
-.project-photo {
-  width: 500px;
-  height: 300px;
-  object-fit: fill;
-}
-
-.project-body-text {
-  padding: 10px;
-  text-align: center;
-}
-
-.project-framework {
-  padding: 10px;
-  text-align: center;
-}
-
-.project-link {
+.pro1 {
   display: flex;
-  justify-content: center;
+  position: fixed;
+  top: 205px;
+  left: 285px;
+  color: black;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  color: white;
-  padding: 10px;
-  text-decoration: underline;
+  vertical-align: top;
+  animation-name: link;
+  animation-duration: 0s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.pro2 {
+  display: flex;
+  position: fixed;
+  top: 240px;
+  left: 285px;
+  color: black;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  vertical-align: top;
+  animation-name: link;
+  animation-duration: 0s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.pro3 {
+  display: flex;
+  position: fixed;
+  top: 275px;
+  left: 285px;
+  color: black;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  vertical-align: top;
+  animation-name: link;
+  animation-duration: 0s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.pro4 {
+  transform-origin: top right;
+  display: flex;
+  position: fixed;
+  top: 310px;
+  left: 285px;
+
+  color: black;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  vertical-align: top;
+  animation-name: link;
+  animation-duration: 0s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
 }
 
-.project-link:hover {
-  color: white;
-  /* border: solid 1px rgb(102, 124, 223); */
-  background-color: black;
+@keyframes link {
+  0% {
+    opacity: 0;
+    color: #000000;
+  }
+  90% {
+    opacity: 0;
+    color: #000000;
+  }
+  100% {
+    opacity: 1;
+    color: #000;
+  }
+}
+
+.image1 {
+  opacity: 1;
+  transition: 500ms;
+  transform: translateY(0);
+  transform-origin: bottom;
+}
+
+html.is-animating .image1 {
+  opacity: 1;
+  top: 10;
 }
