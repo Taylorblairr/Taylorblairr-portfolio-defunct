@@ -21,7 +21,7 @@ body {
   width: 100%;
   z-index: 3;
   animation-name: nav;
-  animation-duration: 10.5s;
+  animation-duration: 7.5s;
   animation-delay: 0s;
   animation-fill-mode: both;
 }
@@ -79,7 +79,7 @@ body {
   object-fit: cover;
   z-index: 1;
   animation-name: image;
-  animation-duration: 9s;
+  animation-duration: 7s;
   animation-delay: 1.5s;
   animation-fill-mode: both;
 }
@@ -133,7 +133,7 @@ body {
   font-size: x-large;
   color: rgb(255, 255, 255);
   animation-name: bio;
-  animation-duration: 11s;
+  animation-duration: 9s;
   animation-delay: 0s;
   animation-fill-mode: both;
 }
