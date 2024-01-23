@@ -83,7 +83,7 @@ body {
   vertical-align: top;
 
   animation-name: box1;
-  animation-duration: 7s;
+  animation-duration: 5s;
   animation-delay: 1s;
   animation-fill-mode: backwards;
 }
@@ -137,7 +137,7 @@ body {
   vertical-align: top;
 
   animation-name: box3;
-  animation-duration: 8s;
+  animation-duration: 4s;
   animation-delay: 2s;
   animation-fill-mode: backwards;
 }
@@ -170,7 +170,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   vertical-align: top;
   animation-name: link;
-  animation-duration: 0s;
+  animation-duration: 7s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
@@ -185,7 +185,7 @@ body {
   text-decoration: none;
   vertical-align: top;
   animation-name: link;
-  animation-duration: 0s;
+  animation-duration: 7s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
@@ -200,7 +200,7 @@ body {
   text-decoration: none;
   vertical-align: top;
   animation-name: link;
-  animation-duration: 0s;
+  animation-duration: 7s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
@@ -215,7 +215,7 @@ body {
   text-decoration: none;
   vertical-align: top;
   animation-name: link;
-  animation-duration: 0s;
+  animation-duration: 7s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
@@ -232,7 +232,7 @@ body {
   text-decoration: none;
   vertical-align: top;
   animation-name: link;
-  animation-duration: 0s;
+  animation-duration: 7s;
   animation-delay: 0s;
   animation-fill-mode: both;
 }
