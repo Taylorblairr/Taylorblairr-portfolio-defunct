@@ -83,8 +83,8 @@ body {
   vertical-align: top;
 
   animation-name: box1;
-  animation-duration: 5s;
-  animation-delay: 1s;
+  animation-duration: 0s;
+  animation-delay: 0s;
   animation-fill-mode: backwards;
 }
 
@@ -99,7 +99,7 @@ body {
   }
 }
 
-/* .box2 {
+.box2 {
   display: flex;
   position: relative;
   top: -10px;
@@ -110,19 +110,19 @@ body {
   vertical-align: top;
 
   animation-name: box2;
-  animation-duration: 6s;
-  animation-delay: 2s;
-  animation-fill-mode: backwards;
-} */
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
 
 @keyframes box2 {
   from {
-    top: -100px;
-    opacity: 0%;
-  }
-  to {
     top: -10px;
     opacity: 100%;
+  }
+  to {
+    top: -150px;
+    opacity: 0%;
   }
 }
 
@@ -137,8 +137,8 @@ body {
   vertical-align: top;
 
   animation-name: box3;
-  animation-duration: 4s;
-  animation-delay: 2s;
+  animation-duration: 0s;
+  animation-delay: 0s;
   animation-fill-mode: backwards;
 }
 
@@ -153,7 +153,14 @@ body {
   }
 }
 
-#link-container {
+#link-container1 {
+  width: 80%;
+  height: 80vh;
+  margin: 5vh auto;
+  position: absolute;
+  vertical-align: top;
+}
+#link-container2 {
   width: 80%;
   height: 80vh;
   margin: 5vh auto;
@@ -163,14 +170,100 @@ body {
 .name {
   display: flex;
   position: fixed;
+  top: 100px;
+  left: 500px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: top;
+  animation-name: link1;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.about {
+  display: flex;
+  position: fixed;
+  top: 220px;
+  left: 180px;
+  color: black;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  vertical-align: top;
+  animation-name: link1;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.projects {
+  display: flex;
+  position: fixed;
+  top: 125px;
+  left: 75px;
+  color: black;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  vertical-align: top;
+  animation-name: link1;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.git {
+  display: flex;
+  position: fixed;
+  top: 160px;
+  left: 120px;
+  color: black;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  vertical-align: top;
+  animation-name: link1;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+.resume {
+  transform-origin: top right;
+  display: flex;
+  position: fixed;
+  top: 500px;
+  left: 200px;
+  transform: rotate(90deg);
+  color: black;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  vertical-align: top;
+  animation-name: link1;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes link1 {
+  0% {
+    opacity: 1;
+    color: #000000;
+  }
+  100% {
+    opacity: 0;
+    color: #00000000;
+  }
+}
+.project {
+  display: flex;
+  position: fixed;
   top: 70px;
   left: 150px;
   color: black;
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
   vertical-align: top;
-  animation-name: link;
-  animation-duration: 7s;
+  animation-name: link2;
+  animation-duration: 3s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
@@ -184,8 +277,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   vertical-align: top;
-  animation-name: link;
-  animation-duration: 7s;
+  animation-name: link2;
+  animation-duration: 3s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
@@ -199,8 +292,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   vertical-align: top;
-  animation-name: link;
-  animation-duration: 7s;
+  animation-name: link2;
+  animation-duration: 3s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
@@ -214,8 +307,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   vertical-align: top;
-  animation-name: link;
-  animation-duration: 7s;
+  animation-name: link2;
+  animation-duration: 3s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
@@ -231,13 +324,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   vertical-align: top;
-  animation-name: link;
-  animation-duration: 7s;
+  animation-name: link2;
+  animation-duration: 3s;
   animation-delay: 0s;
   animation-fill-mode: both;
 }
 
-@keyframes link {
+@keyframes link2 {
   0% {
     opacity: 0;
     color: #000000;
