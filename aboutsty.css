@@ -294,7 +294,7 @@ body {
   left: 0px;
   height: 320px;
   width: 680px;
-  background-color: rgba(252, 252, 252, 0.477);
+  background-color: rgba(152, 151, 149, 0.477);
 
   vertical-align: top;
   z-index: 1;
@@ -344,14 +344,11 @@ body {
 @keyframes bio {
   0% {
     opacity: 0;
-    color: #ffffff;
   }
   90% {
     opacity: 0;
-    color: #ffffff;
   }
   100% {
     opacity: 1;
-    color: #ffffff;
   }
 }
