@@ -21,7 +21,7 @@ body {
   width: 100%;
   z-index: 3;
   animation-name: nav;
-  animation-duration: 7.5s;
+  animation-duration: 7s;
   animation-delay: 0s;
   animation-fill-mode: both;
 }
@@ -269,7 +269,7 @@ body {
 
   top: 100px;
   object-fit: cover;
-  /* z-index: 1; */
+  z-index: 1;
   animation-name: image;
   animation-duration: 5s;
   animation-delay: 1.5s;
@@ -297,7 +297,7 @@ body {
   background-color: rgba(152, 151, 149, 0.477);
 
   vertical-align: top;
-  z-index: 1;
+
   animation-name: box4;
   animation-duration: 4s;
   animation-delay: 2s;
